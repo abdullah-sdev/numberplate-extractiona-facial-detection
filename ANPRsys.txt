@@ -1,0 +1,19 @@
+
+python3 -m pip install --upgrade pip
+pip3 install virtualenv
+which virtualenv
+
+
+
+C:\Users\BlueSpirit\AppData\Local\Programs\Python\Python37\python -m venv anpr3764sys
+.\venv310\Scripts\activate
+
+
+!pip freeze > requirements.txt
+pip install -r .\requirements.txt
+
+
+
+
+
+.\venv\Scripts\deactivate

@@ -1,0 +1,5 @@
+*.pt
+others/
+runs/
+resx/
+.idea/
