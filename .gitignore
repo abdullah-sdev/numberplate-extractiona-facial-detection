@@ -1,5 +1,7 @@
 *.pt
-others/
 runs/
 resx/
 .idea/
+*.mp4
+*.pptx
+others/docs/

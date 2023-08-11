@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Car Numberplate Detections</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="CogitumTechv2.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <!-- <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="logo" width="300rem">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Run Detections</a></li>
+                <li><a href="data.html">Cars Data Log</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="sliderleft">
+            <h1>
+                Automatic <br>
+                NumberPlate <br>
+                Detection
+            </h1>
+        </div>
+
+        <div class="sliderright">
+            <img src="slider1-1-removebg.png" alt="" width="1000vw">
+        </div>
+
+    </div> -->
+
+    <div class="content">
+        <div class="sidebar">
+            <h4>Configurations</h4>
+            <form action="">
+                <input type="file" name="" id="">
+                <select name="" id="">
+                    <option value="" disabled selected>Select. Camera</option>
+                    <option value="" >Camera 1</option>
+                    <option value="" >Camera 2</option>
+                    <option value="" >Camera 3</option>
+                    
+                    
+                </select>
+                <select name="" id="">
+                    <option value="" disabled selected>Select. Type Of Recording</option>
+                    <option value="">Image/Picture</option>
+                    <option value="" >Past Videos</option>
+                    <option value="">Live Video</option>
+                    
+                </select>
+                
+                <fieldset>
+                    <legend>Detections</legend>
+                    <div class="groupinput">
+                        <input type="checkbox" class="checkbox" name="numberplate" id="">
+                        <label for="numberplate">Number Plate</label>
+                    </div>
+                    <div class="groupinput">
+                        <input type="checkbox" class="checkbox" name="vehicle" id="">
+                        <label for="vehicle">Vehicle</label>
+                    </div>
+                    <div class="groupinput">
+                        <input type="checkbox" class="checkbox" name="driver" id="">
+                        <label for="driver">Driver</label>
+                    </div>
+                    
+                </fieldset>
+                <div class="groupinput">
+                    <input type="range" name="confidence" id="">
+                    <label for="driver">Confidence</label>
+                </div>
+                
+
+                <button type="submit" class="start">Start Detections</button>
+            </form>
+        </div>
+        <div class="main">
+            <div class="video">
+                <video src="https://static.vecteezy.com/system/resources/previews/014/394/048/mp4/landscape-view-with-street-and-traffic-of-cars-on-asphalt-street-road-at-intersection-among-the-city-center-of-singapore-city-with-background-of-modern-building-in-singapore-free-video.mp4" controls></video>
+            </div>
+            <div class="result">
+                <h4>
+                    Current Detections
+                </h4>
+                <table>
+                    <tr>
+                        <th>Number Plate</th>
+                        <th>Vehicle</th>
+                        <th>Driver</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>OBE-456</td>
+                        <td>Civic</td>
+                        <td>Driver</td>
+                    </tr>
+                    <tr>
+                        <td>OBE-456</td>
+                        <td>Civic</td>
+                        <td>Driver</td>
+                    </tr>
+                    <tr>
+                        <td>OBE-456</td>
+                        <td>Civic</td>
+                        <td>Driver</td>
+                    </tr>
+                    <tr>
+                        <td>OBE-456</td>
+                        <td>Civic</td>
+                        <td>Driver</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+<!--
+   <footer>
+    Copyright &copy; Cogitum Tech
+   </footer>
+
+    -->
+    
+</body>
+</html>
